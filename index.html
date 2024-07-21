@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div> Digital Library</div><hr>
+        <a href="#register">Home</a>
+        <a href="#book">Books</a>
+        <a href="#register">Register</a>
+        <a href="index.html">About us</a>
+        <a href="#register">Contact Us</a>
+        <a href="#register"><button type="submit">Sign-in</a></button>
+    </nav>
+    <img src="https://cdn.pixabay.com/photo/2024/04/19/12/13/ai-generated-8706226_640.png" alt="library">
+                  
+    <div class="container">
+      <section id="book">
+
+        <h1>Book List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://forums.onlinebookclub.org/viewtopic.php?f=22&t=519799">Book title 1</a>
+                        <table>
+                            <tr><td>Publication Date: 2023-03-03</td></tr>
+                            <tr><td>Page Count: 300</td></tr>
+                            <tr><td>ISBN: 123-456-789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author A</td>
+                    <td>Fiction</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://forums.onlinebookclub.org/shelves/book.php?id=593881">Book title 2</a>
+                        <table>
+                            <tr><td>Publication Date: 2024-05-14</td></tr>
+                            <tr><td>Page Count: 250</td></tr>
+                            <tr><td>ISBN: 987-654-321</td></tr>
+                        </table>
+                    </td>
+                    <td>Author B</td>
+                    <td>Non-Fiction</td>
+                    <td>Checked Out</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://forums.onlinebookclub.org/shelves/book.php?id=366946">Book title 3</a>
+                        <table>
+                            <tr><td>Publication Date: 2022-11-07</td></tr>
+                            <tr><td>Page Count: 200</td></tr>
+                            <tr><td>ISBN: 321-654-245</td></tr>
+                        </table>
+                    </td>
+                    <td>Author C</td>
+                    <td>Mystery</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://forums.onlinebookclub.org/viewtopic.php?f=22&t=519799">Book title 4</a>
+                        <table>
+                            <tr><td>Publication Date: 2021-07-23</td></tr>
+                            <tr><td>Page Count: 350</td></tr>
+                            <tr><td>ISBN: 741-852-854</td></tr>
+                        </table>
+                    </td>
+                    <td>Author D</td>
+                    <td>Science Fiction</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://forums.onlinebookclub.org/shelves/book.php?id=366946">Book title 5</a>
+                        <table>
+                            <tr><td>Publication Date: 2019-03-30</td></tr>
+                            <tr><td>Page Count: 275</td></tr>
+                            <tr><td>ISBN: 852-963-741</td></tr>
+                        </table>
+                    </td>
+                    <td>Author E</td>
+                    <td>Financial</td>
+                    <td>Checked Out</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </div>
+       
+    <div class="container">
+        <section id="register">
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" placeholder="Enter your first name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" placeholder="Enter your last name" name="last-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email ID" name="email" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" placeholder="Enter your Age" name="age" min="5" max="100" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter strong password" name="password" required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" placeholder="Confirm your password" name="confirm-password" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
+
+
